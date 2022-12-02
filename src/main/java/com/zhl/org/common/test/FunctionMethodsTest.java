@@ -31,7 +31,7 @@ public class FunctionMethodsTest {
      * 处理非空
      */
     private static void testPresentFunction() {
-        String str = "1";
+        String str = "滴滴";
         KIfUtill.isBlankOrNoBlank(str).presentOrElseHandle(System.out::println,
                 () -> {
                     System.out.println("我是空字符串");
